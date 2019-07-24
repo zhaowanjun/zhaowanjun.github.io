@@ -32,7 +32,9 @@ body {
 }
 #messages {
     display:none;
-    color:#00D100;
+	color:#00D100;
+	margin-right:100px;
+	margin-left:100px
 }
 #elapseClock .digit {
 	font-family:"digit";
@@ -58,10 +60,11 @@ body {
 #code {
 	float:left;
 	width:440px;
-	height:400px;
+	height:625px;
 	color:#333;
 	font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
-	font-size:12px
+	font-size:12px;
+	line-height: 22px
 }
 #code .string {
 	color:#2a36ff
